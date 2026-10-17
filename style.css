@@ -1,0 +1,39 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.img{
+    width: 330px;
+}
+.pic{
+    width: 100%;
+    border-radius: 20px;
+}
+.innerbox{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px; 
+}
+.img-con{
+    width: 50px;
+}
+.img-con img{
+    width: 100%;
+    border-radius: 50%;
+}
+.p{
+    margin-top: -5px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+span{
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+}
+.s{
+color: black;
+}
