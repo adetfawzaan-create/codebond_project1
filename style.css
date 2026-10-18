@@ -34,12 +34,48 @@ span{
     background-color: black;
     border-radius: 50%;
 }
-.s{
+.p{
 color: black;
 }
 .head{
     display: flex;
+    justify-content: space-between;
 }
 .right{
     justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    flex-shrink: 0;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    margin-left: 100px;
+}
+#img{
+    border-radius: 50%;
+}
+.header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+}
+body{
+    margin: 0;
+    padding: 100px;
+}
+#search{
+    width: 0;
+    flex: 1;
+    max-width: 300px;
 }
