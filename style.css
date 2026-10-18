@@ -37,3 +37,9 @@ span{
 .s{
 color: black;
 }
+.head{
+    display: flex;
+}
+.right{
+    justify-content: space-between;
+}
